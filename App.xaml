@@ -1,0 +1,83 @@
+﻿<Application x:Class="SpaceTraining.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:view="clr-namespace:SpaceTraining.MVVM.View"
+             xmlns:viewmodel="clr-namespace:SpaceTraining.MVVM.ViewModel"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+        <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Themes/ButtonDictionary.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        
+        <DataTemplate DataType="{x:Type viewmodel:StartViewModel}">
+            <view:StartView/>
+        </DataTemplate>
+            
+        <DataTemplate DataType="{x:Type viewmodel:TheoryViewModel}">
+            <view:TheoryView/>
+        </DataTemplate>
+            
+        <DataTemplate DataType="{x:Type viewmodel:TrainerViewModel}">
+            <view:TrainerView/>
+        </DataTemplate>
+            
+        <DataTemplate DataType="{x:Type viewmodel:AppViewModel}">
+            <view:AppView/>
+        </DataTemplate>
+            
+        <DataTemplate DataType="{x:Type viewmodel:StartTwoViewModel}">
+            <view:StartTwoView/>
+        </DataTemplate>
+            
+        <DataTemplate DataType="{x:Type viewmodel:TextOneViewModel}">
+             <view:TextOneView/>
+        </DataTemplate>
+
+        <DataTemplate DataType="{x:Type viewmodel:TextTwoViewModel}">
+             <view:TextTwoView/>
+        </DataTemplate>
+            
+        <DataTemplate DataType="{x:Type viewmodel:TextThreeViewModel}">
+              <view:TextThreeView/>
+        </DataTemplate>
+
+        <DataTemplate DataType="{x:Type viewmodel:TextFourViewModel}">
+              <view:TextFourView/>
+        </DataTemplate>
+
+        <DataTemplate DataType="{x:Type viewmodel:TextFiveViewModel}">
+              <view:TextFiveView/>
+        </DataTemplate>
+
+        <DataTemplate DataType="{x:Type viewmodel:TextSixViewModel}">
+              <view:TextSixView/>
+        </DataTemplate>
+
+        <DataTemplate DataType="{x:Type viewmodel:TestViewModel}">
+              <view:TestView/>
+        </DataTemplate>
+
+        <DataTemplate DataType="{x:Type viewmodel:TestTwoViewModel}">
+              <view:TestTwoView/>
+        </DataTemplate>
+            
+        <DataTemplate DataType="{x:Type viewmodel:TestThreeViewModel}">
+              <view:TestThreeView/>
+        </DataTemplate>
+
+        <DataTemplate DataType="{x:Type viewmodel:TestFourViewModel}">
+              <view:TestFourView/>
+        </DataTemplate>
+            
+        <DataTemplate DataType="{x:Type viewmodel:TestFiveViewModel}">
+              <view:TestFiveView/>
+        </DataTemplate>
+            
+        <DataTemplate DataType="{x:Type viewmodel:TestSixViewModel}">
+              <view:TestSixView/>
+        </DataTemplate>
+            
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

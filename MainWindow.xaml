@@ -1,0 +1,214 @@
+﻿<Window x:Class="SpaceTraining.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:viewmodel="clr-namespace:SpaceTraining.MVVM.ViewModel"
+        mc:Ignorable="d"
+        Height="750" Width="1200"      
+        WindowStyle="None"
+        AllowsTransparency="True"
+        WindowStartupLocation="CenterScreen">
+
+    <Window.DataContext>
+        <viewmodel:MainViewModel/>
+    </Window.DataContext>
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Assets/Background/bg_Menu.png"/>
+        </Grid.Background>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+
+        <Border Grid.ColumnSpan="2"
+                Background="#FF222222"
+                MouseDown="Border_MouseDown">
+
+            <Grid>
+                <StackPanel HorizontalAlignment="Right"
+                            Orientation="Horizontal">
+
+                    <Button Style="{StaticResource MinWinButton}" 
+                            Width="20" Height="20"                           
+                            Background="Transparent"
+                            BorderThickness="0"
+                            Foreground="Gray"
+                            FontWeight="Bold"
+                            Click="ButtonMinimaze_Click">
+                        <Image Source="/Assets/Panel_Top/Minus.png"  
+                               Height="10" 
+                               Width="10"/>
+                    </Button>
+
+                    <Button Style="{StaticResource MinWinButton}" 
+                            Width="20" Height="20"
+                            Background="Transparent"
+                            BorderThickness="0"
+                            Foreground="Gray"
+                            FontWeight="Bold"
+                            Click="WindowStateButton_Click">
+                        <Image Source="/Assets/Panel_Top/Square.png"  
+                               Height="10" 
+                               Width="10"/>
+                    </Button>
+
+                    <Button Style="{StaticResource CloseButton}" 
+                            Width="20" Height="20"
+                            Background="Transparent"
+                            BorderThickness="0"
+                            Foreground="Gray"
+                            FontWeight="Bold"
+                            Click="CloseButton_Click">
+                        <Image Source="/Assets/Panel_Top/Exit.png"  
+                               Height="10" 
+                               Width="10"/>
+                    </Button>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <Grid Grid.Row="1" >
+            <Grid.Background>
+                <SolidColorBrush Color="Black" Opacity="0.4"/>
+            </Grid.Background>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"/>
+                <RowDefinition/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+            </Grid.RowDefinitions>
+
+            <Label Content="   SPACE&#xD;&#xA;TRAINING"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center"
+                   FontFamily="Redriver"
+                   Foreground="White" 
+                   FontSize="25" 
+                   FontWeight="Bold"/>
+
+            <StackPanel Grid.Row="1">
+                <Button Style="{StaticResource MenuButton}"
+                        Background="Transparent"
+                        BorderThickness="0"
+                        Command="{Binding UpdateViewCommand}"
+                        CommandParameter="Start">
+
+                    <Grid Height="40" Width="170">
+                        <Image Source="/Assets/Panel_Left/Home.png"
+                           Height="25" 
+                           Width="25" 
+                           HorizontalAlignment="Left"
+                           Margin="20,0,0,0"/>
+                        <Label Content="Главная" 
+                           HorizontalAlignment="Left" 
+                           VerticalAlignment="Center"
+                           Foreground="White"
+                           FontFamily="Cera Round Pro Black"
+                           FontSize="16" 
+                           Margin="55,0,0,0"/>
+                    </Grid>
+                </Button>
+
+                <Button Style="{StaticResource MenuButton}" 
+                        Background="Transparent"
+                        BorderThickness="0"
+                        Command="{Binding UpdateViewCommand}"
+                        CommandParameter="Theory">
+                    <Grid Height="40" Width="170">
+                        <Image Source="/Assets/Panel_Left/Theory.png"
+                           Height="25" Width="25" 
+                           HorizontalAlignment="Left"
+                           Margin="20,0,0,0"/>
+                        <Label Content="Теория" 
+                           HorizontalAlignment="Left" 
+                           VerticalAlignment="Center"
+                           Foreground="White"
+                           FontFamily="Cera Round Pro Black"
+                           FontSize="16" 
+                           Margin="55,0,0,0"/>
+                    </Grid>
+                </Button>
+
+                <Button Style="{StaticResource MenuButton}" 
+                        Background="Transparent"
+                        BorderThickness="0"
+                        Command="{Binding UpdateViewCommand}"
+                        CommandParameter="Trainer">
+                    <Grid Height="40" Width="170">
+                        <Image Source="/Assets/Panel_Left/Trainer.png"
+                           Height="25" Width="25" 
+                           HorizontalAlignment="Left"
+                           Margin="20,0,0,0"/>
+                        <Label Content="Практика" 
+                           HorizontalAlignment="Left" 
+                           VerticalAlignment="Center"
+                           Foreground="White"
+                           FontFamily="Cera Round Pro Black"
+                           FontSize="16" 
+                           Margin="55,0,0,0"/>
+                    </Grid>
+                </Button>
+            </StackPanel>
+
+            <StackPanel Grid.Row="2" 
+                        VerticalAlignment="Center">
+                <Border Background="#FF27326F"
+                        BorderBrush="White"
+                        BorderThickness="0.7"
+                        CornerRadius="15"
+                        Height="30"
+                        Width="150">
+                    <Button Style="{StaticResource TextButtonStyle}" 
+                            Command="{Binding UpdateViewCommand}"
+                            CommandParameter="App"
+                            Content="О приложении"
+                            Foreground="White"
+                            FontSize="16"
+                            Background="Transparent"
+                            BorderBrush="Transparent" 
+                            FontFamily="Cera Round Pro Black"
+                            HorizontalAlignment="Center" 
+                            VerticalAlignment="Center">
+                    </Button>
+                </Border>
+            </StackPanel>
+
+            <StackPanel Grid.Row="3"
+                        VerticalAlignment="Center">
+                <Border Background="#FF27326F" 
+                        BorderBrush="White"
+                        BorderThickness="0.7"
+                        CornerRadius="15" 
+                        Height="30"
+                        Width="100">
+                    <Button Style="{StaticResource TextButtonStyle}" 
+                            Content="Выход"
+                            Foreground="White"
+                            FontSize="16"
+                            Background="Transparent"
+                            BorderBrush="Transparent" 
+                            FontFamily="Cera Round Pro Black"
+                            Click="ExitButton_Click" 
+                            VerticalAlignment="Center" 
+                            HorizontalAlignment="Center"/>
+                </Border>
+            </StackPanel>
+        </Grid>
+
+        <Grid Grid.Column="1" Grid.Row="1">
+            <ContentControl Content="{Binding SelectedViewModel}"/>
+        </Grid>
+    </Grid>
+</Window>

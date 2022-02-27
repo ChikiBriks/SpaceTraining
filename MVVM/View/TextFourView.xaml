@@ -1,0 +1,102 @@
+﻿<UserControl x:Class="SpaceTraining.MVVM.View.TextFourView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SpaceTraining.MVVM.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="730" d:DesignWidth="1000">
+    <Grid Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+
+
+        <StackPanel VerticalAlignment="Center"
+                    HorizontalAlignment="Center" 
+                    Grid.ColumnSpan="3">
+            <Label Content="Малые тела"
+                    Foreground="White"
+                    FontFamily="Cera Round Pro Black"
+                    FontSize="35"/>
+        </StackPanel>
+
+        <Grid Grid.Row="1" Margin="60,0,60,0">
+            <ScrollViewer VerticalScrollBarVisibility="Hidden" >
+                <StackPanel>
+                    <TextBlock Text="Основные понятия" FontFamily="Cera Round Pro Black" Foreground="White" FontSize="20" HorizontalAlignment="Center"/>
+                    <TextBlock Text="Космология – учение о Вселенной в целом, основанное на результатах исследований, доступных для астрономических наблюдений.&#xA;Вселенная – весь существующий материальный мир, безграничный во времени и пространстве и бесконечно разнообразный по формам, которые принимает материя в процессе своего развития. &#xA;Метагалактика – часть Вселенной, доступная для астрономических наблюдений.
+Вселенная существует около 15 млрд лет.
+Существующие знания о Вселенной основаны на астрономических наблюдениях и на предположении о том, что законы природы, установленные на Земле, могут быть применены ко всей Вселенной.
+&#xA;Систематические целенаправленные наблюдения за Вселенной ведутся с момента появления первых телескопов (1609-1610 гг.)
+Начиная с 1931 года, для изучения Вселенной используют также методы радиолокации – по отраженному радиосигналу определяют положение и скорость движения космического объекта.
+
+На протяжении многих тысячелетий человечество считало, что Вселенная вечна и неизменна. Данная теория господствовала во всем в мире вплоть до начала ХХ столетия. Колоссальный переворот в науке о космическом пространстве произошел в 20-е годы прошлого века, благодаря таким ученым как Эйнштейн, Фридман и Хаббл. Именно они выдвинули предположения и доказали, что Вселенная – это целая система, которая живет своей жизнью и способна изменяться во времени, то есть расширяться или сжиматься. В структуре Вселенной выделяют несколько уровней организации, каждый из которых отличается масштабом объектов.  Практически все космические тела в необъятной Вселенной формируют группы. Звезды группируются парами или входят в звездные скопления. В таких скоплениях могут содержаться десятки или даже сотни таких светил. Исключением считается Солнце, так как у него нет «двойника»." 
+                               FontFamily="Cera Round Pro" 
+                               Foreground="White" 
+                               FontSize="20"                              
+                               TextWrapping="WrapWithOverflow" 
+                               TextAlignment="Justify" Height="1400"
+                               />
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+
+        <Grid Grid.Row="2">
+            <StackPanel
+                    HorizontalAlignment="Center"                   
+                  
+                    Orientation="Horizontal">
+                <Border CornerRadius="25" 
+                    BorderThickness="0.7"
+                    Height="50" 
+                    Width="400"
+                    BorderBrush="White" 
+                        Margin="0,0,10,0">
+                    <Border.Background>
+                        <SolidColorBrush Color="Black" Opacity="0.3"/>
+                    </Border.Background>
+
+
+
+                    <Button Style="{StaticResource TextButtonStyle}" 
+                        Command="{Binding DataContext.UpdateViewCommand, RelativeSource={RelativeSource AncestorType={x:Type Window}}}" CommandParameter="Theory"
+                        Background="Transparent" 
+                        BorderBrush="Transparent"
+                        Content="‹ Предыдущая страница"
+                        FontFamily="Cera Round Pro Black"
+                        FontSize="20"
+                        Foreground="White">
+
+                    </Button>
+                </Border>
+
+                <Border CornerRadius="25" 
+                    BorderThickness="0.7"
+                    Height="50" 
+                    Width="250"
+                    BorderBrush="White">
+                    <Border.Background>
+                        <SolidColorBrush Color="Black" Opacity="0.3"/>
+                    </Border.Background>
+
+
+
+                    <Button Style="{StaticResource TextButtonStyle}" 
+                        Command="{Binding DataContext.UpdateViewCommand, RelativeSource={RelativeSource AncestorType={x:Type Window}}}" CommandParameter="TestFour"
+                        Background="Transparent" 
+                        BorderBrush="Transparent"
+                        Content="Проверить знания"
+                        FontFamily="Cera Round Pro Black"
+                        FontSize="20"
+                        Foreground="White">
+
+                    </Button>
+                </Border>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</UserControl>

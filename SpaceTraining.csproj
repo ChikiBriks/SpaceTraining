@@ -1,0 +1,178 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Assets\CardTheory\**" />
+    <EmbeddedResource Remove="Assets\CardTheory\**" />
+    <None Remove="Assets\CardTheory\**" />
+    <Page Remove="Assets\CardTheory\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\1.png" />
+    <None Remove="Assets\2.png" />
+    <None Remove="Assets\Background\bg_Menu.png" />
+    <None Remove="Assets\Card_Test\System.png" />
+    <None Remove="Assets\Card_Theory\CardFive.png" />
+    <None Remove="Assets\Card_Theory\CardFour.png" />
+    <None Remove="Assets\Card_Theory\CardOne.png" />
+    <None Remove="Assets\Card_Theory\CardSix.png" />
+    <None Remove="Assets\Card_Theory\CardThree.png" />
+    <None Remove="Assets\Card_Theory\CardTwo.png" />
+    <None Remove="Assets\Card_Trainer\CardFive.png" />
+    <None Remove="Assets\Card_Trainer\CardFour.png" />
+    <None Remove="Assets\Card_Trainer\CardOne.png" />
+    <None Remove="Assets\Card_Trainer\CardSix.png" />
+    <None Remove="Assets\Card_Trainer\CardThree.png" />
+    <None Remove="Assets\Card_Trainer\CardTwo.png" />
+    <None Remove="Assets\dudnik.png" />
+    <None Remove="Assets\Exit.png" />
+    <None Remove="Assets\Galaxies\Star.jpg" />
+    <None Remove="Assets\Hand.png" />
+    <None Remove="Assets\Home.png" />
+    <None Remove="Assets\Mars.png" />
+    <None Remove="Assets\Minus.png" />
+    <None Remove="Assets\Panel_Left\Home.png" />
+    <None Remove="Assets\Panel_Left\Theory.png" />
+    <None Remove="Assets\Panel_Left\Trainer.png" />
+    <None Remove="Assets\Panel_Top\Exit.png" />
+    <None Remove="Assets\Panel_Top\Minus.png" />
+    <None Remove="Assets\Panel_Top\Square.png" />
+    <None Remove="Assets\People\Petrov.png" />
+    <None Remove="Assets\People\Sasha.png" />
+    <None Remove="Assets\People\Tanya.png" />
+    <None Remove="Assets\Planet.png" />
+    <None Remove="Assets\Planet1.png" />
+    <None Remove="Assets\Planet2.png" />
+    <None Remove="Assets\Planet3.png" />
+    <None Remove="Assets\PlanetCosmos1_image.png" />
+    <None Remove="Assets\PlanetCosmos2_image.png" />
+    <None Remove="Assets\PlanetCosmos3_image.png" />
+    <None Remove="Assets\Plate.png" />
+    <None Remove="Assets\SolarSystem.png" />
+    <None Remove="Assets\Solar_System.png" />
+    <None Remove="Assets\Square.png" />
+    <None Remove="Assets\Start_Page\Planet_One.png" />
+    <None Remove="Assets\Start_Page\Planet_Three.png" />
+    <None Remove="Assets\Start_Page\Planet_Two.png" />
+    <None Remove="Assets\System.png" />
+    <None Remove="Assets\Telescope.png" />
+    <None Remove="Assets\Theory.png" />
+    <None Remove="Assets\Trainer.png" />
+    <None Remove="Assets\Training.png" />
+    <None Remove="Fonts\CeraRoundPro Black.otf" />
+    <None Remove="Fonts\CeraRoundPro Bold.otf" />
+    <None Remove="Fonts\Redriver.ttf" />
+    <None Remove="Themes\bg_Menu.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="MVVM\Model\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Background\bg_Menu.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Card_Test\System.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Card_Theory\CardFive.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Card_Theory\CardFour.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Card_Theory\CardOne.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Card_Theory\CardSix.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Card_Theory\CardThree.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Card_Theory\CardTwo.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Card_Trainer\CardFive.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Card_Trainer\CardFour.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Card_Trainer\CardOne.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Card_Trainer\CardSix.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Card_Trainer\CardThree.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Card_Trainer\CardTwo.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Galaxies\Star.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Panel_Left\Home.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Panel_Left\Theory.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Panel_Left\Trainer.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Panel_Top\Exit.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Panel_Top\Minus.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Panel_Top\Square.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\People\Petrov.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\People\Sasha.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\People\Tanya.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Start_Page\Planet_One.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Start_Page\Planet_Three.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Start_Page\Planet_Two.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <EmbeddedResource Include="Fonts\CeraRoundPro Black.otf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fonts\CeraRoundPro Bold.otf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fonts\Redriver.ttf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="MVVM\View\StartView.xaml">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Page>
+  </ItemGroup>
+
+</Project>
