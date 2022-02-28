@@ -81,15 +81,15 @@ namespace SpaceTraining.MVVM.View
                     txtQuestion.Text = "Первый вопрос";
 
 
-                    scoreText2.Content = "Текст";
+                    scoreText2.Content = "Астрономия – это наука, которая занимается изучением…?";
 
                     ans1.Visibility = Visibility.Visible;
                     ans2.Visibility = Visibility.Visible;
                     ans3.Visibility = Visibility.Visible;
 
-                    ans1.Content = "Answer 1";
-                    ans2.Content = "Answer 2 +";
-                    ans3.Content = "Answer 3";
+                    ans1.Content = "Планет";
+                    ans2.Content = "Вселенной";
+                    ans3.Content = "Галактикой";
 
                     ans2.Tag = "1";
 
@@ -101,11 +101,11 @@ namespace SpaceTraining.MVVM.View
                     txtQuestion.Text = "Второй вопрос";
 
 
-                    scoreText2.Content = "Т1екст";
+                    scoreText2.Content = "Из каких двух греческих слов, состоит название Астрономия?";
 
-                    ans1.Content = "Answer 1 +";
-                    ans2.Content = "Answer 2";
-                    ans3.Content = "Answer 3";
+                    ans1.Content = "Астрон, Номос";
+                    ans2.Content = "Светило, закон";
+                    ans3.Content = "Звезда, светило";
 
                     ans1.Tag = "1";
 
@@ -117,11 +117,11 @@ namespace SpaceTraining.MVVM.View
                     txtQuestion.Text = "Третий вопрос";
 
 
-                    scoreText2.Content = "Т2екст";
+                    scoreText2.Content = "Благодаря каким ученым появился термин «Астрономия»?";
 
-                    ans1.Content = "Answer 1";
-                    ans2.Content = "Answer 2";
-                    ans3.Content = "Answer 3 +";
+                    ans1.Content = "Пифагор, Менделеев";
+                    ans2.Content = "Плутарх, Диофант";
+                    ans3.Content = "Пифагор, Гиппарх";
 
                     ans3.Tag = "1";
 
@@ -133,11 +133,11 @@ namespace SpaceTraining.MVVM.View
                     txtQuestion.Text = "Четвертый вопрос";
 
 
-                    scoreText2.Content = "Т3екст";
+                    scoreText2.Content = " Для осуществления астрономических исследований,\n расчета координат, траекторий небесных тел, необходимо владеть науками…?";
 
-                    ans1.Content = "Answer 1";
-                    ans2.Content = "Answer 2 +";
-                    ans3.Content = "Answer 3";
+                    ans1.Content = "Химия, физика";
+                    ans2.Content = "Математика, география";
+                    ans3.Content = "Механика, биология";
 
                     ans2.Tag = "1";
 
@@ -149,11 +149,11 @@ namespace SpaceTraining.MVVM.View
                     txtQuestion.Text = "Пятый вопрос";
 
 
-                    scoreText2.Content = "Т4екст";
+                    scoreText2.Content = "Знания какой науки нужны для определения химического состава небесных светил?";
 
-                    ans1.Content = "Answer 1 +";
-                    ans2.Content = "Answer 2";
-                    ans3.Content = "Answer 3";
+                    ans1.Content = "Химия";
+                    ans2.Content = "Математика";
+                    ans3.Content = "Физика";
 
 
                     ans1.Tag = "1";
@@ -165,11 +165,11 @@ namespace SpaceTraining.MVVM.View
                     txtQuestion.Text = "Шестой вопрос";
 
 
-                    scoreText2.Content = "Т5екст";
+                    scoreText2.Content = "Для чего нужна биология в астрономии?";
 
-                    ans1.Content = "Answer 1";
-                    ans2.Content = "Answer 2";
-                    ans3.Content = "Answer 3 +";
+                    ans1.Content = "Влияние планет на солнце";
+                    ans2.Content = "Влияние солнца на планеты";
+                    ans3.Content = "Влияние солнечного\nсвета на все живое";
 
                     ans3.Tag = "1";
 
@@ -180,11 +180,11 @@ namespace SpaceTraining.MVVM.View
                     txtQuestion.Text = "Седьмой вопрос";
 
 
-                    scoreText2.Content = "Т6екст";
+                    scoreText2.Content = "С чем познакомит вас история в астрономии?";
 
-                    ans1.Content = "Answer 1";
-                    ans2.Content = "Answer 2 +";
-                    ans3.Content = "Answer 3";
+                    ans1.Content = "С Древним Римом";
+                    ans2.Content = "Древними астрономами";
+                    ans3.Content = "Древними учеными";
 
                     ans2.Tag = "1";
 
@@ -195,11 +195,11 @@ namespace SpaceTraining.MVVM.View
                     txtQuestion.Text = "Восьмой вопрос";
 
 
-                    scoreText2.Content = "Т7екст";
+                    scoreText2.Content = " Какая наука поможет исследовать значение\n и происхождение название планет и созвездия?";
 
-                    ans1.Content = "Answer 1";
-                    ans2.Content = "Answer 2";
-                    ans3.Content = "Answer 3 +";
+                    ans1.Content = "Механика";
+                    ans2.Content = "География";
+                    ans3.Content = "Лингвистика";
 
                     ans3.Tag = "1";
 

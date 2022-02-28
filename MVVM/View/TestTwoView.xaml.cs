@@ -84,15 +84,15 @@ namespace SpaceTraining.MVVM.View
                     txtQuestion.Text = "Первый вопрос";
 
 
-                    scoreText2.Content = "Текст";
+                    scoreText2.Content = "Как образно называют галактику, разделяющее пустое космическое пространство?";
 
                     ans1.Visibility = Visibility.Visible;
                     ans2.Visibility = Visibility.Visible;
                     ans3.Visibility = Visibility.Visible;
 
-                    ans1.Content = "Answer 1";
-                    ans2.Content = "Answer 2 +";
-                    ans3.Content = "Answer 3";
+                    ans1.Content = "Пустынями";
+                    ans2.Content = "Оазисами";
+                    ans3.Content = "Темная энергия";
 
                     ans2.Tag = "1";
 
@@ -104,11 +104,11 @@ namespace SpaceTraining.MVVM.View
                     txtQuestion.Text = "Второй вопрос";
 
 
-                    scoreText2.Content = "Т1екст";
+                    scoreText2.Content = "Что является центром галактики?";
 
-                    ans1.Content = "Answer 1 +";
-                    ans2.Content = "Answer 2";
-                    ans3.Content = "Answer 3";
+                    ans1.Content = "Ядро";
+                    ans2.Content = "Оно";
+                    ans3.Content = "Черная дыра";
 
                     ans1.Tag = "1";
 
@@ -120,11 +120,11 @@ namespace SpaceTraining.MVVM.View
                     txtQuestion.Text = "Третий вопрос";
 
 
-                    scoreText2.Content = "Т2екст";
+                    scoreText2.Content = "Тонкий, плоский галактический слой,\nгде находится большинство космических объектов — это?";
 
-                    ans1.Content = "Answer 1";
-                    ans2.Content = "Answer 2";
-                    ans3.Content = "Answer 3 +";
+                    ans1.Content = "Кружок";
+                    ans2.Content = "Овал";
+                    ans3.Content = "Диск";
 
                     ans3.Tag = "1";
 
@@ -136,11 +136,11 @@ namespace SpaceTraining.MVVM.View
                     txtQuestion.Text = "Четвертый вопрос";
 
 
-                    scoreText2.Content = "Т3екст";
+                    scoreText2.Content = "Как называется внешний сфероидальный компонент?";
 
-                    ans1.Content = "Answer 1";
-                    ans2.Content = "Answer 2 +";
-                    ans3.Content = "Answer 3";
+                    ans1.Content = "Звезда";
+                    ans2.Content = "Гало";
+                    ans3.Content = "Оазис";
 
                     ans2.Tag = "1";
 
@@ -152,11 +152,11 @@ namespace SpaceTraining.MVVM.View
                     txtQuestion.Text = "Пятый вопрос";
 
 
-                    scoreText2.Content = "Т4екст";
+                    scoreText2.Content = "Объёмная сферическая оболочка галактического ядра называется:";
 
-                    ans1.Content = "Answer 1 +";
-                    ans2.Content = "Answer 2";
-                    ans3.Content = "Answer 3";
+                    ans1.Content = "Балдж";
+                    ans2.Content = "Спиральный рукав";
+                    ans3.Content = "Выпуклость";
 
 
                     ans1.Tag = "1";
@@ -168,11 +168,11 @@ namespace SpaceTraining.MVVM.View
                     txtQuestion.Text = "Шестой вопрос";
 
 
-                    scoreText2.Content = "Т5екст";
+                    scoreText2.Content = "Как называются неплотные спиральные ответвления\nс большим количеством новообразованных звёзд?";
 
-                    ans1.Content = "Answer 1";
-                    ans2.Content = "Answer 2";
-                    ans3.Content = "Answer 3 +";
+                    ans1.Content = "Спиральный рукав";
+                    ans2.Content = "Перемычка";
+                    ans3.Content = "Галактические рукава";
 
                     ans3.Tag = "1";
 
@@ -183,11 +183,11 @@ namespace SpaceTraining.MVVM.View
                     txtQuestion.Text = "Седьмой вопрос";
 
 
-                    scoreText2.Content = "Т6екст";
+                    scoreText2.Content = "Что располагается около балджа?";
 
-                    ans1.Content = "Answer 1";
-                    ans2.Content = "Answer 2 +";
-                    ans3.Content = "Answer 3";
+                    ans1.Content = "Бар";
+                    ans2.Content = "Перемычка или бар";
+                    ans3.Content = "Старые светилы";
 
                     ans2.Tag = "1";
 
@@ -198,11 +198,11 @@ namespace SpaceTraining.MVVM.View
                     txtQuestion.Text = "Восьмой вопрос";
 
 
-                    scoreText2.Content = "Т7екст";
+                    scoreText2.Content = "Что является Ядром Млечного Пути?";
 
-                    ans1.Content = "Answer 1";
-                    ans2.Content = "Answer 2";
-                    ans3.Content = "Answer 3 +";
+                    ans1.Content = "Группа звезд";
+                    ans2.Content = "Ядро";
+                    ans3.Content = "Черная дыра";
 
                     ans3.Tag = "1";
 

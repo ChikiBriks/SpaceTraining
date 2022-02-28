@@ -46,37 +46,37 @@
                     HorizontalAlignment="Center"/>
             </Border>
 
-            <Border Grid.Row="2" CornerRadius="40" BorderThickness="0.7" Height="250" Width="900" BorderBrush="White">
+            <Border Grid.Row="2" CornerRadius="40" BorderThickness="0.7" Height="150" Width="900" BorderBrush="White">
                 <Border.Background>
                     <SolidColorBrush Color="Black" Opacity="0.3"/>
                 </Border.Background>
 
-                <Label Name="scoreText2" Grid.Row="2" Foreground="White" FontFamily="Cera Round Pro" FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Label Name="scoreText2" Grid.Row="2" Foreground="White" FontFamily="Cera Round Pro" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             </Border>
 
             <Grid Name="Test2" Grid.Row="3">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="200"/>
+                    <ColumnDefinition Width="270"/>
                     <ColumnDefinition Width="50"/>
-                    <ColumnDefinition Width="200"/>
+                    <ColumnDefinition Width="270"/>
                     <ColumnDefinition Width="50"/>
-                    <ColumnDefinition Width="200"/>
+                    <ColumnDefinition Width="270"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
-                <Button Style="{StaticResource TextButtonStyle}" BorderBrush="Transparent" Foreground="White" FontSize="18" Click="checkAnswer" Name="ans1" Width="200" Height="50" Content="Answer 1" Tag="0" HorizontalAlignment="Right" Grid.Column="1">
+                <Button Style="{StaticResource TextButtonStyle}" BorderBrush="Transparent" Foreground="White" FontSize="18" Click="checkAnswer" Name="ans1" Width="270" Height="50" Content="Answer 1" Tag="0" HorizontalAlignment="Right" Grid.Column="1">
                     <Button.Background>
                         <SolidColorBrush Color="White" Opacity="0.1"/>
                     </Button.Background>
                 </Button>
-                <Button Style="{StaticResource TextButtonStyle}" BorderBrush="Transparent" Foreground="White" FontSize="18" Click="checkAnswer" Name="ans2" Width="200" Height="50" Content="Answer 2" Tag="0"  HorizontalAlignment="Center" Grid.Column="3">
+                <Button Style="{StaticResource TextButtonStyle}" BorderBrush="Transparent" Foreground="White" FontSize="18" Click="checkAnswer" Name="ans2" Width="270" Height="50" Content="Answer 2" Tag="0"  HorizontalAlignment="Center" Grid.Column="3">
                     <Button.Background>
                         <SolidColorBrush Color="White" Opacity="0.1"/>
                     </Button.Background>
                 </Button>
 
-                <Button Style="{StaticResource TextButtonStyle}" BorderBrush="Transparent" Foreground="White" FontSize="18" Click="checkAnswer" Name="ans3" Width="200" Height="50" Content="Answer 3" Tag="0" HorizontalAlignment="Left" Grid.Column="5">
+                <Button Style="{StaticResource TextButtonStyle}" BorderBrush="Transparent" Foreground="White" FontSize="18" Click="checkAnswer" Name="ans3" Width="270" Height="50" Content="Answer 3" Tag="0" HorizontalAlignment="Left" Grid.Column="5">
                     <Button.Background>
                         <SolidColorBrush Color="White" Opacity="0.1"/>
                     </Button.Background>

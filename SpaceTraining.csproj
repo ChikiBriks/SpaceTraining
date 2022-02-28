@@ -5,6 +5,7 @@
     <TargetFramework>net6.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>Assets\Logo.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -33,7 +34,16 @@
     <None Remove="Assets\Card_Trainer\CardTwo.png" />
     <None Remove="Assets\dudnik.png" />
     <None Remove="Assets\Exit.png" />
+    <None Remove="Assets\Galaxies\Asteroid.png" />
+    <None Remove="Assets\Galaxies\Astrophysics.png" />
+    <None Remove="Assets\Galaxies\Bootes Supercluster.png" />
+    <None Remove="Assets\Galaxies\Galaxy in Perse.png" />
+    <None Remove="Assets\Galaxies\Solar system.png" />
+    <None Remove="Assets\Galaxies\Spiral galaxy.jpg" />
+    <None Remove="Assets\Galaxies\Spiral galaxy.png" />
     <None Remove="Assets\Galaxies\Star.jpg" />
+    <None Remove="Assets\Galaxies\Star.png" />
+    <None Remove="Assets\Galaxies\Void of Bootes.png" />
     <None Remove="Assets\Hand.png" />
     <None Remove="Assets\Home.png" />
     <None Remove="Assets\Mars.png" />
@@ -70,6 +80,10 @@
     <None Remove="Fonts\CeraRoundPro Bold.otf" />
     <None Remove="Fonts\Redriver.ttf" />
     <None Remove="Themes\bg_Menu.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\Logo.ico" />
   </ItemGroup>
 
   <ItemGroup>
@@ -119,7 +133,28 @@
     <Resource Include="Assets\Card_Trainer\CardTwo.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Assets\Galaxies\Star.jpg">
+    <Resource Include="Assets\Galaxies\Asteroid.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Galaxies\Astrophysics.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Galaxies\Bootes Supercluster.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Galaxies\Galaxy in Perse.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Galaxies\Solar system.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Galaxies\Spiral galaxy.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Galaxies\Star.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Galaxies\Void of Bootes.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Assets\Panel_Left\Home.png">
@@ -158,15 +193,15 @@
     <Resource Include="Assets\Start_Page\Planet_Two.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
-    <EmbeddedResource Include="Fonts\CeraRoundPro Black.otf">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Fonts\CeraRoundPro Bold.otf">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Fonts\Redriver.ttf">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </EmbeddedResource>
+    <Resource Include="Fonts\CeraRoundPro Black.otf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Fonts\CeraRoundPro Bold.otf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Fonts\Redriver.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
   <ItemGroup>

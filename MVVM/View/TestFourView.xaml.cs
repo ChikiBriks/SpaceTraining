@@ -84,15 +84,15 @@ namespace SpaceTraining.MVVM.View
                     txtQuestion.Text = "Первый вопрос";
 
 
-                    scoreText2.Content = "Текст";
+                    scoreText2.Content = "Небольшое планетоподобное тело Солнечной системы,\nдвижущийся по орбите вокруг Солнца – это?";
 
                     ans1.Visibility = Visibility.Visible;
                     ans2.Visibility = Visibility.Visible;
                     ans3.Visibility = Visibility.Visible;
 
-                    ans1.Content = "Answer 1";
-                    ans2.Content = "Answer 2 +";
-                    ans3.Content = "Answer 3";
+                    ans1.Content = "Планета";
+                    ans2.Content = "Астероид";
+                    ans3.Content = "Комета";
 
                     ans2.Tag = "1";
 
@@ -104,11 +104,11 @@ namespace SpaceTraining.MVVM.View
                     txtQuestion.Text = "Второй вопрос";
 
 
-                    scoreText2.Content = "Т1екст";
+                    scoreText2.Content = "Кем был открыт первый астероид Церера?";
 
-                    ans1.Content = "Answer 1 +";
-                    ans2.Content = "Answer 2";
-                    ans3.Content = "Answer 3";
+                    ans1.Content = "Пиацци";
+                    ans2.Content = "Галилео";
+                    ans3.Content = "Энштейн";
 
                     ans1.Tag = "1";
 
@@ -120,11 +120,11 @@ namespace SpaceTraining.MVVM.View
                     txtQuestion.Text = "Третий вопрос";
 
 
-                    scoreText2.Content = "Т2екст";
+                    scoreText2.Content = "Какие космические объекты, которые по своим характеристикам\nне могут быть отнесены к карликовым планетам, планетам или их спутникам?";
 
-                    ans1.Content = "Answer 1";
-                    ans2.Content = "Answer 2";
-                    ans3.Content = "Answer 3 +";
+                    ans1.Content = "Огромные тела";
+                    ans2.Content = "Большие тела";
+                    ans3.Content = "Малые тела";
 
                     ans3.Tag = "1";
 
@@ -136,11 +136,11 @@ namespace SpaceTraining.MVVM.View
                     txtQuestion.Text = "Четвертый вопрос";
 
 
-                    scoreText2.Content = "Т3екст";
+                    scoreText2.Content = "Какой советский аппарат изучил комету Галлея в 1986 году?";
 
-                    ans1.Content = "Answer 1";
-                    ans2.Content = "Answer 2 +";
-                    ans3.Content = "Answer 3";
+                    ans1.Content = "НАСА";
+                    ans2.Content = "Вега";
+                    ans3.Content = "Заря";
 
                     ans2.Tag = "1";
 
@@ -152,11 +152,11 @@ namespace SpaceTraining.MVVM.View
                     txtQuestion.Text = "Пятый вопрос";
 
 
-                    scoreText2.Content = "Т4екст";
+                    scoreText2.Content = "Какой пояс превышает массу ближнего пояса астероидов?";
 
-                    ans1.Content = "Answer 1 +";
-                    ans2.Content = "Answer 2";
-                    ans3.Content = "Answer 3";
+                    ans1.Content = "Койпера";
+                    ans2.Content = "Оорта";
+                    ans3.Content = "Пиацци";
 
 
                     ans1.Tag = "1";
@@ -168,11 +168,11 @@ namespace SpaceTraining.MVVM.View
                     txtQuestion.Text = "Шестой вопрос";
 
 
-                    scoreText2.Content = "Т5екст";
+                    scoreText2.Content = "При приближении кометы к Солнцу замёрзшие газы\nна её поверхности начинают испаряться и образуют…?";
 
-                    ans1.Content = "Answer 1";
-                    ans2.Content = "Answer 2";
-                    ans3.Content = "Answer 3 +";
+                    ans1.Content = "Взрыв";
+                    ans2.Content = "Пыль";
+                    ans3.Content = "Хвост";
 
                     ans3.Tag = "1";
 
@@ -183,11 +183,11 @@ namespace SpaceTraining.MVVM.View
                     txtQuestion.Text = "Седьмой вопрос";
 
 
-                    scoreText2.Content = "Т6екст";
+                    scoreText2.Content = "Какая общая масса всего ближнего пояса от массы Луны?";
 
-                    ans1.Content = "Answer 1";
-                    ans2.Content = "Answer 2 +";
-                    ans3.Content = "Answer 3";
+                    ans1.Content = "10%";
+                    ans2.Content = "4%";
+                    ans3.Content = "2,5%";
 
                     ans2.Tag = "1";
 
@@ -198,11 +198,11 @@ namespace SpaceTraining.MVVM.View
                     txtQuestion.Text = "Восьмой вопрос";
 
 
-                    scoreText2.Content = "Т7екст";
+                    scoreText2.Content = "Маленькие космические тела, вращающиеся вокруг Солнца по конической орбите – это?";
 
-                    ans1.Content = "Answer 1";
-                    ans2.Content = "Answer 2";
-                    ans3.Content = "Answer 3 +";
+                    ans1.Content = "Астероиды";
+                    ans2.Content = "Болиды";
+                    ans3.Content = "Кометы";
 
                     ans3.Tag = "1";
 

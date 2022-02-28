@@ -84,15 +84,15 @@ namespace SpaceTraining.MVVM.View
                     txtQuestion.Text = "Первый вопрос";
 
 
-                    scoreText2.Content = "Текст";
+                    scoreText2.Content = "Раздел астрономии, изучающий физическое состояние\nи химический состав небесных тел и их систем? ";
 
                     ans1.Visibility = Visibility.Visible;
                     ans2.Visibility = Visibility.Visible;
                     ans3.Visibility = Visibility.Visible;
 
-                    ans1.Content = "Answer 1";
-                    ans2.Content = "Answer 2 +";
-                    ans3.Content = "Answer 3";
+                    ans1.Content = "Физика";
+                    ans2.Content = "Астрофизика";
+                    ans3.Content = "Химиофизика";
 
                     ans2.Tag = "1";
 
@@ -104,11 +104,11 @@ namespace SpaceTraining.MVVM.View
                     txtQuestion.Text = "Второй вопрос";
 
 
-                    scoreText2.Content = "Т1екст";
+                    scoreText2.Content = "Небесное тело, в котором идут, шли или будут идти термоядерные реакции?";
 
-                    ans1.Content = "Answer 1 +";
-                    ans2.Content = "Answer 2";
-                    ans3.Content = "Answer 3";
+                    ans1.Content = "Звезды";
+                    ans2.Content = "Астероиды";
+                    ans3.Content = "Кометы";
 
                     ans1.Tag = "1";
 
@@ -120,11 +120,11 @@ namespace SpaceTraining.MVVM.View
                     txtQuestion.Text = "Третий вопрос";
 
 
-                    scoreText2.Content = "Т2екст";
+                    scoreText2.Content = "Что представляют собой звезды?";
 
-                    ans1.Content = "Answer 1";
-                    ans2.Content = "Answer 2";
-                    ans3.Content = "Answer 3 +";
+                    ans1.Content = "Лампу";
+                    ans2.Content = "Небесные тела";
+                    ans3.Content = "Газовые шары";
 
                     ans3.Tag = "1";
 
@@ -136,11 +136,11 @@ namespace SpaceTraining.MVVM.View
                     txtQuestion.Text = "Четвертый вопрос";
 
 
-                    scoreText2.Content = "Т3екст";
+                    scoreText2.Content = "Когда началось современная классификация звёзд?";
 
-                    ans1.Content = "Answer 1";
-                    ans2.Content = "Answer 2 +";
-                    ans3.Content = "Answer 3";
+                    ans1.Content = "IX века";
+                    ans2.Content = "XX века";
+                    ans3.Content = "XI века";
 
                     ans2.Tag = "1";
 
@@ -152,11 +152,11 @@ namespace SpaceTraining.MVVM.View
                     txtQuestion.Text = "Пятый вопрос";
 
 
-                    scoreText2.Content = "Т4екст";
+                    scoreText2.Content = "Тип звёзд, в которых ядерные реакции никогда не могли\nкомпенсировать потери энергии на излучение?";
 
-                    ans1.Content = "Answer 1 +";
-                    ans2.Content = "Answer 2";
-                    ans3.Content = "Answer 3";
+                    ans1.Content = "Коричневые карлики";
+                    ans2.Content = "Белый карлик";
+                    ans3.Content = "Черный карлик";
 
 
                     ans1.Tag = "1";
@@ -168,11 +168,11 @@ namespace SpaceTraining.MVVM.View
                     txtQuestion.Text = "Шестой вопрос";
 
 
-                    scoreText2.Content = "Т5екст";
+                    scoreText2.Content = "Системы, состоящие из трёх и более звёзд?";
 
-                    ans1.Content = "Answer 1";
-                    ans2.Content = "Answer 2";
-                    ans3.Content = "Answer 3 +";
+                    ans1.Content = "Двойные звезды";
+                    ans2.Content = "Тесные звезды";
+                    ans3.Content = "Кратные звезды";
 
                     ans3.Tag = "1";
 
@@ -183,11 +183,11 @@ namespace SpaceTraining.MVVM.View
                     txtQuestion.Text = "Седьмой вопрос";
 
 
-                    scoreText2.Content = "Т6екст";
+                    scoreText2.Content = "Звёзды с довольно низкой эффективной температурой (3000 — 5000 К),\nоднако с огромной светимостью?";
 
-                    ans1.Content = "Answer 1";
-                    ans2.Content = "Answer 2 +";
-                    ans3.Content = "Answer 3";
+                    ans1.Content = "Гиганты";
+                    ans2.Content = "Красные гиганты";
+                    ans3.Content = "Карлики";
 
                     ans2.Tag = "1";
 
@@ -198,11 +198,11 @@ namespace SpaceTraining.MVVM.View
                     txtQuestion.Text = "Восьмой вопрос";
 
 
-                    scoreText2.Content = "Т7екст";
+                    scoreText2.Content = "В каком году впервые был обнаружен коричневый карлик?";
 
-                    ans1.Content = "Answer 1";
-                    ans2.Content = "Answer 2";
-                    ans3.Content = "Answer 3 +";
+                    ans1.Content = "2000 г";
+                    ans2.Content = "2009 г";
+                    ans3.Content = "2004 г";
 
                     ans3.Tag = "1";
 

@@ -84,17 +84,17 @@ namespace SpaceTraining.MVVM.View
                     txtQuestion.Text = "Первый вопрос";
 
 
-                    scoreText2.Content = "Текст";
+                    scoreText2.Content = "Самая близкая к нам звезда, которая обладает\nсредней величиной и средней температурой – это?";
 
                     ans1.Visibility = Visibility.Visible;
                     ans2.Visibility = Visibility.Visible;
                     ans3.Visibility = Visibility.Visible;
 
-                    ans1.Content = "Answer 1";
-                    ans2.Content = "Answer 2 +";
-                    ans3.Content = "Answer 3";
+                    ans1.Content = "Луна";
+                    ans2.Content = "Марс";
+                    ans3.Content = "Солнце";
 
-                    ans2.Tag = "1";
+                    ans3.Tag = "1";
 
 
                     break;
@@ -104,11 +104,11 @@ namespace SpaceTraining.MVVM.View
                     txtQuestion.Text = "Второй вопрос";
 
 
-                    scoreText2.Content = "Т1екст";
+                    scoreText2.Content = "Какая температура на поверхности солнца?";
 
-                    ans1.Content = "Answer 1 +";
-                    ans2.Content = "Answer 2";
-                    ans3.Content = "Answer 3";
+                    ans1.Content = "6 000 °С";
+                    ans2.Content = "10 000 °С";
+                    ans3.Content = "3 000 °С";
 
                     ans1.Tag = "1";
 
@@ -120,13 +120,13 @@ namespace SpaceTraining.MVVM.View
                     txtQuestion.Text = "Третий вопрос";
 
 
-                    scoreText2.Content = "Т2екст";
+                    scoreText2.Content = "Планеты какой группы относительно небольшие и плотные?";
 
-                    ans1.Content = "Answer 1";
-                    ans2.Content = "Answer 2";
-                    ans3.Content = "Answer 3 +";
+                    ans1.Content = "Гиганты";
+                    ans2.Content = "Земные";
+                    ans3.Content = "Космические";
 
-                    ans3.Tag = "1";
+                    ans2.Tag = "1";
 
 
                     break;
@@ -136,11 +136,11 @@ namespace SpaceTraining.MVVM.View
                     txtQuestion.Text = "Четвертый вопрос";
 
 
-                    scoreText2.Content = "Т3екст";
+                    scoreText2.Content = "Какие планеты во много раз больше других планет?";
 
-                    ans1.Content = "Answer 1";
-                    ans2.Content = "Answer 2 +";
-                    ans3.Content = "Answer 3";
+                    ans1.Content = "Титаны";
+                    ans2.Content = "Гиганты";
+                    ans3.Content = "Огромные";
 
                     ans2.Tag = "1";
 
@@ -152,11 +152,11 @@ namespace SpaceTraining.MVVM.View
                     txtQuestion.Text = "Пятый вопрос";
 
 
-                    scoreText2.Content = "Т4екст";
+                    scoreText2.Content = "Сколько основных планет входит в солнечную систему?";
 
-                    ans1.Content = "Answer 1 +";
-                    ans2.Content = "Answer 2";
-                    ans3.Content = "Answer 3";
+                    ans1.Content = "8";
+                    ans2.Content = "1";
+                    ans3.Content = "10";
 
 
                     ans1.Tag = "1";
@@ -168,11 +168,11 @@ namespace SpaceTraining.MVVM.View
                     txtQuestion.Text = "Шестой вопрос";
 
 
-                    scoreText2.Content = "Т5екст";
+                    scoreText2.Content = "Сколько карликовых планет входит в солнечную систему?";
 
-                    ans1.Content = "Answer 1";
-                    ans2.Content = "Answer 2";
-                    ans3.Content = "Answer 3 +";
+                    ans1.Content = "20";
+                    ans2.Content = "8";
+                    ans3.Content = "5";
 
                     ans3.Tag = "1";
 
@@ -183,11 +183,11 @@ namespace SpaceTraining.MVVM.View
                     txtQuestion.Text = "Седьмой вопрос";
 
 
-                    scoreText2.Content = "Т6екст";
+                    scoreText2.Content = "Почему светит солнце?";
 
-                    ans1.Content = "Answer 1";
-                    ans2.Content = "Answer 2 +";
-                    ans3.Content = "Answer 3";
+                    ans1.Content = "Просто";
+                    ans2.Content = "Атомные реакции";
+                    ans3.Content = "Оно горит";
 
                     ans2.Tag = "1";
 
@@ -198,11 +198,11 @@ namespace SpaceTraining.MVVM.View
                     txtQuestion.Text = "Восьмой вопрос";
 
 
-                    scoreText2.Content = "Т7екст";
+                    scoreText2.Content = "Сколько примерно могло бы поместиться земных шаров в Солнце?";
 
-                    ans1.Content = "Answer 1";
-                    ans2.Content = "Answer 2";
-                    ans3.Content = "Answer 3 +";
+                    ans1.Content = "Менее 1 млн";
+                    ans2.Content = "Одна";
+                    ans3.Content = "Более 1 млн";
 
                     ans3.Tag = "1";
 
