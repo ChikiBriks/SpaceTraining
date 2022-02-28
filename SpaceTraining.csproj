@@ -38,6 +38,7 @@
     <None Remove="Assets\Galaxies\Astrophysics.png" />
     <None Remove="Assets\Galaxies\Bootes Supercluster.png" />
     <None Remove="Assets\Galaxies\Galaxy in Perse.png" />
+    <None Remove="Assets\Galaxies\Luna.png" />
     <None Remove="Assets\Galaxies\Solar system.png" />
     <None Remove="Assets\Galaxies\Spiral galaxy.jpg" />
     <None Remove="Assets\Galaxies\Spiral galaxy.png" />
@@ -143,6 +144,9 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Assets\Galaxies\Galaxy in Perse.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Galaxies\Luna.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Assets\Galaxies\Solar system.png">
