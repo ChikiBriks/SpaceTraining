@@ -19,7 +19,7 @@
                     HorizontalAlignment="Center" >
             <Label Content="Основы астрономии"
                     Foreground="White"
-                    FontFamily="Cera Round Pro Black"
+                    FontFamily="pack://application:,,,/Fonts/#Cera Round Pro Black"
                     FontSize="35"/>
         </StackPanel>
 
@@ -101,7 +101,7 @@
                         Background="Transparent" 
                         BorderBrush="Transparent"
                         Content="‹ Предыдущая страница"
-                        FontFamily="Cera Round Pro Black"
+                        FontFamily="pack://application:,,,/Fonts/#Cera Round Pro Black"
                         FontSize="20"
                         Foreground="White">
 

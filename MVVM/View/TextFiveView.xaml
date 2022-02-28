@@ -20,7 +20,7 @@
                     Grid.ColumnSpan="3">
             <Label Content="Солнечная система"
                     Foreground="White"
-                    FontFamily="Cera Round Pro Black"
+                    FontFamily="pack://application:,,,/Fonts/#Cera Round Pro Black"
                     FontSize="35"/>
         </StackPanel>
 
@@ -74,7 +74,7 @@
                         Background="Transparent" 
                         BorderBrush="Transparent"
                         Content="‹ Предыдущая страница"
-                        FontFamily="Cera Round Pro Black"
+                        FontFamily="pack://application:,,,/Fonts/#Cera Round Pro Black"
                         FontSize="20"
                         Foreground="White">
 
@@ -97,7 +97,7 @@
                         Background="Transparent" 
                         BorderBrush="Transparent"
                         Content="Проверить знания"
-                        FontFamily="Cera Round Pro Black"
+                        FontFamily="pack://application:,,,/Fonts/#Cera Round Pro Black"
                         FontSize="20"
                         Foreground="White">
 
