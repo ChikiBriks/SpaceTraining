@@ -84,7 +84,7 @@ namespace SpaceTraining.MVVM.View
                     txtQuestion.Text = "Первый вопрос";
 
 
-                    scoreText2.Content = "ТУчение о Вселенной в целом, основанное на результатах\nисследований, доступных для астрономических наблюдений – это?";
+                    scoreText2.Content = "Учение о Вселенной в целом, основанное на результатах\nисследований, доступных для астрономических наблюдений – это?";
 
                     ans1.Visibility = Visibility.Visible;
                     ans2.Visibility = Visibility.Visible;

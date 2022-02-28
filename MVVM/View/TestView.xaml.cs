@@ -89,7 +89,7 @@ namespace SpaceTraining.MVVM.View
 
                     ans1.Content = "Планет";
                     ans2.Content = "Вселенной";
-                    ans3.Content = "Галактикой";
+                    ans3.Content = "Галактики";
 
                     ans2.Tag = "1";
 

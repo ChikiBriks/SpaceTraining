@@ -56,7 +56,7 @@
                     <Grid>
                         <StackPanel>
                             <Image Source="/Assets/People/Tanya.png"/>
-                            <Label Content="Татьяна&#xA;Зимина"
+                            <Label Content="Зимина&#xA;Татьяна"
                                HorizontalAlignment="Center"
                                VerticalContentAlignment="Center"
                                FontFamily="Cera Round Pro Black"
@@ -64,7 +64,7 @@
                                FontSize="25"
                                Width="220" 
                                Height="90"/>
-                            <Label Content="• Контент-менеджер;&#xA;• Веб-разработчик;&#xA;• Дизайнер."
+                            <Label Content="• Контент-менеджер&#xA;• Веб-разработчик&#xA;• Дизайнер"
                                HorizontalAlignment="Center"
                                VerticalContentAlignment="Center"
                                FontFamily="Cera Round Pro"
@@ -102,7 +102,7 @@
                                FontSize="25"
                                Width="220"
                                Height="90"/>
-                            <Label Content="• Программист;&#xA;• Дизайнер;&#xA;• Контент-менеджер."
+                            <Label Content="• Программист&#xA;• Дизайнер&#xA;• Контент-менеджер"
                                HorizontalAlignment="Center"
                                VerticalContentAlignment="Center"
                                FontFamily="Cera Round Pro"
@@ -142,7 +142,7 @@
                                FontSize="25"
                                Width="220"
                                 Height="90"/>
-                        <Label Content="• Художник;&#xA;• Социолог;&#xA;• Видеомонтажёр."
+                        <Label Content="• Иллюстратор&#xA;• Социолог&#xA;• Видеомонтажёр"
                                HorizontalAlignment="Center"
                                VerticalContentAlignment="Center"
                                FontFamily="Cera Round Pro"
