@@ -21,7 +21,7 @@
                     Grid.ColumnSpan="3">
             <Label Content="Что Вы узнаете?"
                     Foreground="White"
-                    FontFamily="Cera Round Pro Black"
+                    FontFamily="pack://application:,,,/Fonts/#Cera Round Pro Black"
                     FontSize="35"/>
         </StackPanel>
 
@@ -58,7 +58,7 @@
                     <Grid>
                         <StackPanel>
                             <Label Content="Интересные термины"                
-                               FontFamily="Cera Round Pro Black"
+                               FontFamily="pack://application:,,,/Fonts/#Cera Round Pro Black"
                                Foreground="White" 
                                FontSize="23" 
                                FontWeight="Bold"
@@ -95,7 +95,7 @@
                     <Grid>
                         <StackPanel>
                             <Label Content="Космические явления"
-                               FontFamily="Cera Round Pro Black"
+                               FontFamily="pack://application:,,,/Fonts/#Cera Round Pro Black"
                                Foreground="White" 
                                FontSize="23" 
                                FontWeight="Bold"
@@ -133,7 +133,7 @@
                     <Grid>
                         <StackPanel>
                             <Label Content="Космические объекты"                
-                               FontFamily="Cera Round Pro Black"
+                               FontFamily="pack://application:,,,/Fonts/#Cera Round Pro Black"
                                Foreground="White" 
                                FontSize="23" 
                                FontWeight="Bold"
@@ -170,7 +170,7 @@
                     <Grid>
                         <StackPanel>
                             <Label Content="Этапы жизни звёзд"                
-                               FontFamily="Cera Round Pro Black"
+                               FontFamily="pack://application:,,,/Fonts/#Cera Round Pro Black"
                                Foreground="White" 
                                FontSize="23" 
                                FontWeight="Bold"
@@ -212,7 +212,7 @@
                         Background="Transparent" 
                         BorderBrush="Transparent"
                         Content="‹ Предыдущая страница"
-                        FontFamily="Cera Round Pro Black"
+                        FontFamily="pack://application:,,,/Fonts/#Cera Round Pro Black"
                         FontSize="20"
                         Foreground="White">
 

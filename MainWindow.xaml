@@ -93,7 +93,7 @@
             <Label Content="   SPACE&#xD;&#xA;TRAINING"
                    VerticalAlignment="Center"
                    HorizontalAlignment="Center"
-                   FontFamily="Redriver"
+                   FontFamily="pack://application:,,,/Fonts/#Redriver"
                    Foreground="White" 
                    FontSize="25" 
                    FontWeight="Bold"/>
@@ -115,7 +115,7 @@
                            HorizontalAlignment="Left" 
                            VerticalAlignment="Center"
                            Foreground="White"
-                           FontFamily="Cera Round Pro Black"
+                           FontFamily="pack://application:,,,/Fonts/#Cera Round Pro Black"
                            FontSize="16" 
                            Margin="55,0,0,0"/>
                     </Grid>
@@ -135,7 +135,7 @@
                            HorizontalAlignment="Left" 
                            VerticalAlignment="Center"
                            Foreground="White"
-                           FontFamily="Cera Round Pro Black"
+                           FontFamily="pack://application:,,,/Fonts/#Cera Round Pro Black"
                            FontSize="16" 
                            Margin="55,0,0,0"/>
                     </Grid>
@@ -155,7 +155,7 @@
                            HorizontalAlignment="Left" 
                            VerticalAlignment="Center"
                            Foreground="White"
-                           FontFamily="Cera Round Pro Black"
+                           FontFamily="pack://application:,,,/Fonts/#Cera Round Pro Black"
                            FontSize="16" 
                            Margin="55,0,0,0"/>
                     </Grid>
@@ -178,7 +178,7 @@
                             FontSize="16"
                             Background="Transparent"
                             BorderBrush="Transparent" 
-                            FontFamily="Cera Round Pro Black"
+                            FontFamily="pack://application:,,,/Fonts/#Cera Round Pro Black"
                             HorizontalAlignment="Center" 
                             VerticalAlignment="Center">
                     </Button>
@@ -199,7 +199,7 @@
                             FontSize="16"
                             Background="Transparent"
                             BorderBrush="Transparent" 
-                            FontFamily="Cera Round Pro Black"
+                            FontFamily="pack://application:,,,/Fonts/#Cera Round Pro Black"
                             Click="ExitButton_Click" 
                             VerticalAlignment="Center" 
                             HorizontalAlignment="Center"/>

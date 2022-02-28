@@ -17,7 +17,7 @@
                     Grid.ColumnSpan="3">
             <Label Content="Разработчики программы"
                     Foreground="White"
-                    FontFamily="Cera Round Pro Black"
+                    FontFamily="pack://application:,,,/Fonts/#Cera Round Pro Black"
                     FontSize="35"/>
         </StackPanel>
 
@@ -59,7 +59,7 @@
                             <Label Content="Зимина&#xA;Татьяна"
                                HorizontalAlignment="Center"
                                VerticalContentAlignment="Center"
-                               FontFamily="Cera Round Pro Black"
+                               FontFamily="pack://application:,,,/Fonts/#Cera Round Pro Black"
                                Foreground="White" 
                                FontSize="25"
                                Width="220" 
@@ -67,7 +67,7 @@
                             <Label Content="• Контент-менеджер&#xA;• Веб-разработчик&#xA;• Дизайнер"
                                HorizontalAlignment="Center"
                                VerticalContentAlignment="Center"
-                               FontFamily="Cera Round Pro"
+                               FontFamily="pack://application:,,,/Fonts/#Cera Round Pro Bold"
                                Foreground="White" 
                                FontSize="20"
                                Width="220" Height="100"/>
@@ -97,7 +97,7 @@
                             <Label Content="Дудник&#xA;Александр"
                                HorizontalAlignment="Center"
                                VerticalContentAlignment="Center"
-                               FontFamily="Cera Round Pro Black"
+                               FontFamily="pack://application:,,,/Fonts/#Cera Round Pro Black"
                                Foreground="White" 
                                FontSize="25"
                                Width="220"
@@ -105,7 +105,7 @@
                             <Label Content="• Программист&#xA;• Дизайнер&#xA;• Контент-менеджер"
                                HorizontalAlignment="Center"
                                VerticalContentAlignment="Center"
-                               FontFamily="Cera Round Pro"
+                               FontFamily="pack://application:,,,/Fonts/#Cera Round Pro Bold"
                                Foreground="White" 
                                FontSize="20"
                                Width="220" Height="100"/>
@@ -137,7 +137,7 @@
                         <Label Content="Петров&#xA;Евгений"
                                HorizontalAlignment="Center"
                                VerticalContentAlignment="Center"
-                               FontFamily="Cera Round Pro Black"
+                               FontFamily="pack://application:,,,/Fonts/#Cera Round Pro Black"
                                Foreground="White" 
                                FontSize="25"
                                Width="220"
@@ -145,7 +145,7 @@
                         <Label Content="• Иллюстратор&#xA;• Социолог&#xA;• Видеомонтажёр"
                                HorizontalAlignment="Center"
                                VerticalContentAlignment="Center"
-                               FontFamily="Cera Round Pro"
+                               FontFamily="pack://application:,,,/Fonts/#Cera Round Pro Bold"
                                Foreground="White" 
                                FontSize="20"
                                Width="220" Height="100"/>
